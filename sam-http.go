@@ -197,3 +197,7 @@ func exists(path string) (bool, error) {
         if os.IsNotExist(err) { return false, nil }
         return true, err
 }
+
+func main(){
+
+}
